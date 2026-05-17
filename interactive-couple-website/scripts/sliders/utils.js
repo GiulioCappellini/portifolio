@@ -35,7 +35,7 @@ export function createSlider(arg) {
 
     const arrow = document.createElement("img");
     arrow.classList.add("arrow");
-    arrow.src = "../images_videos/home/images/forStyle/arrow.png";
+    arrow.src = "../images_videos/images/forStyle/arrow.png";
 
     const slider = document.createElement("div");
     slider.classList.add("slider");
@@ -48,7 +48,7 @@ export function createSlider(arg) {
     image.forEach(img => {
         if (isVideo(img)) {
             slide = document.createElement("video");
-            slide.poster = "../images_videos/home/images/forStyle/posterForVideos.png";
+            slide.poster = "../images_videos/images/forStyle/posterForVideos.png";
         } else {slide = document.createElement("img")};
         slide.classList.add("slide");
         slide.src = image[countImage];
@@ -98,20 +98,20 @@ export function createLightbox(container, slider, midea, text) {
 
     const arrow = document.createElement("img");
     arrow.classList.add("arrow");
-    arrow.src = "../images_videos/home/images/forStyle/arrow.png";
+    arrow.src = "../images_videos/images/forStyle/arrow.png";
 
     prevButton.classList.add("prevButton");
     nextButton.classList.add("nextButton");
     
     closeButton.classList.add("closeButton");
 
-    close.src = "../images_videos/home/images/forStyle/close.png";
+    close.src = "../images_videos/images/forStyle/close.png";
 
     downloadButton.classList.add("downloadButton");
     downloadButton.setAttribute("download", "");
     downloadButton.href = midea;
 
-    download.src = "../images_videos/home/images/forStyle/download.png";
+    download.src = "../images_videos/images/forStyle/download.png";
 
     container.append(lightbox);
 

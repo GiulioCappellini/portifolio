@@ -8,11 +8,11 @@ itens.forEach(li => {
         const content = li.querySelector(".content");
         
         if (content.style.height == "0px") {
-            expandImg.src = "../images_videos/home/images/forStyle/expandLess.png";
+            expandImg.src = "../images_videos/images/forStyle/expandLess.png";
             expandImg.alt = "Expand less";
             content.style.height = content.scrollHeight + "px";
         } else {
-            expandImg.src = "../images_videos/home/images/forStyle/expandMore.png";
+            expandImg.src = "../images_videos/images/forStyle/expandMore.png";
             expandImg.alt = "Expand more";
             content.style.height = "0px";
         };
