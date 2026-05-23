@@ -59,10 +59,15 @@ portfolio/
 
 ## Featured Projects
 
+### Portfolio Website
+
+Giulio's portfolio website.  
+Portfolio Link:  
+[Portfolio-website](https://giuliocappellini-portfolio.vercel.app/)
+
 ### Interactive Couple Website
 
-Emotional memory platform created for couples to organize memories, important dates and meaningful experiences through an interactive interface.
-
+Emotional memory platform created for couples to organize memories, important dates and meaningful experiences through an interactive interface.  
 Project Link:  
 [Interactive-couple-website](https://giuliocappellini.github.io/portifolio/interactive-couple-website/index.html)
 
