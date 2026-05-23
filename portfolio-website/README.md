@@ -69,11 +69,11 @@ This project was created to:
 
 - Document my technical evolution
 - Showcase real-world projects
-- Improve frontend architecture skills
-- Develop scalable project organization
-- Practice software engineering concepts
+- Develop system architecture skills with focus on backend design and frontend as a delivery layer
+- Build scalable and maintainable project structures
+- Practice core software engineering concepts
 - Build a professional online presence
-- Prepare for future backend integration and full-stack expansion
+- Design systems prepared for backend integration and long-term extensibility
 
 ---
 
@@ -101,20 +101,17 @@ Not exist yet
 
 ## Installation
 
-Clone the repository:
-
+Clone the repository:  
 ```bash
 git clone https://github.com/giuliocappellini/portfolio.git
 ```
 
-Access the project folder:
-
+Access the project folder:  
 ```bash
 cd portfolio-website
 ```
 
-Run locally:
-
+Run locally:  
 ```txt
 Open index.html in your browser
 ```
@@ -137,5 +134,5 @@ This project is licensed under the MIT License.
 
 Giulio Cappellini
 
-Full Stack Developer focused on backend engineering, scalable architectures and complex systems development.  
-Passionate about building performant applications, modern web experiences and future-oriented technologies.
+Backend-focused software engineer with full-stack capability for interface implementation when required.  
+I prioritize backend systems, architecture design and scalability, while using frontend technologies as the interface layer to deliver functional products.
