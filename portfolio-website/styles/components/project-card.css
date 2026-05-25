@@ -10,6 +10,7 @@
     background: var(--bgCard);
     border: 1px solid var(--border);
     border-radius: 1rem;
+    filter: blur(8px);
     overflow: hidden;
 }
 
