@@ -69,7 +69,7 @@ Portfolio Link:
 
 Emotional memory platform created for couples to organize memories, important dates and meaningful experiences through an interactive interface.  
 Project Link:  
-[Interactive-couple-website](https://giuliocappellini.github.io/portifolio/interactive-couple-website/index.html)
+[Interactive-couple-website](https://giuliocappellini.github.io/portfolio/projects/interactive-couple-website/index.html)
 
 ---
 

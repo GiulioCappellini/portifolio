@@ -3,20 +3,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="assets/icons/portfolio.ico" type="image/x-icon">
-    <title>Giulio's portfolio</title>
-    <link rel="stylesheet" href="styles/">
+    <link rel="icon" href="assets/icons/portfolio.svg" type="image/svg+xml">
+    <title>Portfolio · Giulio Cappellini</title>
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
     <header>
+        <a href="#" class="logo" aria-label="Portfolio start">
+            <span class="logoMark" aria-hidden="true">G</span>
+            <span>Giulio Cappellini</span>
+        </a>
+        <div class="nav-hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav aria-label="Main navigation">
+            <span>
+                <a href="#projects">Projects</a>
+                <a href="#sobre">About</a>
 
+                <span class="line"></span>
+
+                <a href="https://github.com/giuliocappellini" target="_blank">GitHub</a>
+                <a href="#" id="future-website">Future Website</a>
+
+                <span class="line"></span>
+                
+                <a href="assets/dowloads/CV Giulio English.pdf" download="">Curriculum</a>
+                <a href="https://www.linkedin.com/in/giulio-cappellini/" target="_blank">Linkedin</a>
+            </span>
+        </nav>
     </header>
-    <main>
 
+    <main>
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-content">
+                <p class="hero-badge">
+                    <span class="badge-dot" aria-hidden="true"></span>
+                    Project portfolio
+                </p>
+                <h1 id="hero-title">
+                    Projects built with 
+                    <span class="title-accent">code and purpose</span>
+                </h1>
+                <p class="hero-text">
+                    This is a showcase of my development work — experiments, MVPs, and evolving products. Each project documents a stage of my technical journey.
+                </p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn-primary">Show projects</a>
+                    <a href="#sobre" class="btn-ghost">How it works</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" aria-labelledby="projects">
+            <h2>What I’ve <span class="title-accent">built so far</span></h2>
+
+            <div class="projects-grid">
+                <article class="project-card card-hover">
+                    <div class="card-media">
+                        <img src="assets/images/projects/ilustration-interactive-couple-website.png" alt="Illustration of the Interactive Couple Website project" loading="lazy">
+                        <span class="card-status">Personal Project · MVP</span>
+                    </div>
+                    <div class="card-body">
+                        <h3>Interactive Couple Website</h3>
+                        <h4 class="date-creation">Created: 2026-05</h4>
+                        <p>
+                            Web platform for couples to organize memories, emotions, important dates, and personal content in dynamic sections. Page structure is defined, with CRUD functionality currently under development.
+                        </p>
+                        <ul class="card-tags" aria-label="Tecnologies">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                        <div class="card-actions">
+                            <a href="https://giuliocappellini.github.io/portfolio/projects/interactive-couple-website/index.html" class="btn-primary" target="_blank" rel="noopener noreferrer">
+                                View demo
+                                <span class="arrow" aria-hidden="true">→</span>
+                            </a>
+                            <a href="https://github.com/GiulioCappellini/portfolio/tree/main/projects/interactive-couple-website" class="btn-ghost" target="_blank" rel="noopener noreferrer">
+                                Code
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <aside class="aditional-info">
+                <p>
+                    More projects in development
+                </p>
+            </aside>
+        </section>
+
+        <section id="sobre" aria-labelledby="about title">
+            <h2>How this <span class="title-accent">portfolio works</span></h2>
+
+            <div class="about-grid">
+                <div class="about-card card-hover">
+                    <h3>Repository structure</h3>
+                    <p>
+                        The <strong>portfolio</strong> monorepo contains two main folders: <strong>portfolio-website</strong> (this showcase) and <strong>projects</strong> (public versions of projects, with sensitive data removed where applicable for personal projects).
+                    </p>
+                </div>
+
+                <dl>
+                    <div class="list-item">
+                        <dt>Scalable</dt>
+                        <dd>
+                            CSS is organized into global, components, and pages — ready for new cards, detail pages, and future JavaScript integration.
+                        </dd>
+                    </div>
+                    <div class="list-item">
+                        <dt>For personal projects</dt>
+                        <dd>
+                            Photos, personal content, and credentials are kept only in private versions of the projects, not in portfolio demos.
+                        </dd>
+                    </div>
+                    <div class="list-item">
+                        <dt>Evolving</dt>
+                        <dd>
+                            Each project documents its status (MVP, prototype, etc.) and receives new updates as the journey progresses.
+                        </dd>
+                    </div>
+                </dl>
+            </div>
+        </section>
     </main>
+
     <footer>
-        © 2026 Giulio Cappellini.
+        <p>© 2026 Giulio Cappellini.</p>
+        <p class="footer-note">Project portfolio · <span>in progress</span></p>
     </footer>
-    
+
+    <script type="module" src="scripts/main.js"></script>
 </body>
 </html>

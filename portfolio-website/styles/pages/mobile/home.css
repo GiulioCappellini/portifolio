@@ -1,0 +1,166 @@
+.hero {
+    padding-top: 20px;
+}
+
+.hero-content {
+    max-width: 42rem;
+}
+
+.hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+    padding: 0.25rem 1rem;
+    font-family: var(--fontMono);
+    font-size: 0.875rem;
+    color: var(--accent);
+    background: var(--accentSoft);
+    border: 1px solid rgba(110, 231, 183, 0.2);
+    border-radius: 999px;
+}
+
+.badge-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--accent);
+}
+
+.hero h1 {
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 700;
+    line-height: 1.15;
+}
+
+.title-accent {
+    background: linear-gradient(135deg, var(--text), var(--accent), var(--textMuted));
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-text {
+    margin-top: 1.5rem;
+    font-size: 1.125rem;
+    color: var(--textMuted);
+}
+
+.hero-cta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+.hero-cta a {
+    display: inline-flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    font-weight: 500;
+    border-radius: 0.625rem;
+}
+.hero-cta a,
+.card-actions a {
+    transition: transform 0.15s ease-in-out, filter 0.15s ease-in-out;
+}
+
+.hero-cta a:hover,
+.card-actions a:hover {
+    transform: translateY(-2px);
+}
+.btn-primary:hover {
+    filter: drop-shadow(0px 0px 6px var(--accent));
+}
+
+.aditional-info {
+    width: fit-content;
+    margin: 20px auto;
+    padding: 4px 16px;
+    border-radius: 999px;
+    color: var(--textMuted);
+    background: var(--bgCard);
+    border: 1px solid var(--border);
+    transform: scale(1.12);
+}
+.aditional-info p {
+    width: 100%;
+    text-align: center;
+}
+
+#sobre .about-grid {
+    display: grid;
+    gap: 3rem;
+}
+
+/* @media (min-width: 768px) {
+    #sobre .about-grid {
+        grid-template-columns: 1fr 1.2fr;
+    }
+} */
+
+.about-card {
+    padding: 2rem;
+    background: var(--bgCard);
+    border: 1px solid var(--border);
+    border-radius: 1rem;
+}
+
+.about-card h3 {
+    margin-bottom: 1rem;
+    font-size: 1.3em;
+}
+
+.about-card p {
+    font-size: 0.9em;
+    color: var(--textMuted);
+    line-height: 1.7;
+}
+
+#sobre dl {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#sobre .list-item {
+    padding-left: 1.5rem;
+    border-left: 2px solid var(--border);
+}
+
+#sobre dt {
+    margin-bottom: 0.25rem;
+    font-weight: 600;
+}
+
+#sobre dd {
+    font-size: 0.9em;
+    color: var(--textMuted);
+}
+
+#alert {
+    width: 90%;
+    height: 100px;
+    z-index: 999;
+    position: absolute;
+    top: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--bg);
+    color: var(--accent);
+    filter: drop-shadow(3px 3px 0px var(--border));
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.show-alert {
+    animation: show-alert 0.2s ease-in-out forwards;
+}
+.hide-alert {
+    animation: hide-alert 0.3s ease-in-out forwards;
+}

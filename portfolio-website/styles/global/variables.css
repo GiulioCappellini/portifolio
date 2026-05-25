@@ -1,0 +1,23 @@
+:root {
+    --bg: #0c0e12;
+    --bgCard: #1a1f2a;
+    --bgElevated: #141820;
+    --surface: #222938;
+    --border: rgba(255, 255, 255, 0.08);
+    --borderHover: rgba(255, 255, 255, 0.16);
+
+    --text: #e8eaef;
+    --textMuted: #9aa3b5;
+    --textSubtle: #6b7385;
+
+    --accent: #6ee7b7;
+    --accentSoft: rgba(110, 231, 183, 0.12);
+    --accentGlow: rgba(110, 231, 183, 0.35);
+
+    --fontSans: "Segoe UI", system-ui, sans-serif;
+    --fontMono: "Cascadia Code", Consolas, monospace;
+
+    --headerHeight: 4rem;
+    --maxWidth: 72rem;
+    --sectionPadding: clamp(4rem, 10vw, 7rem);
+}

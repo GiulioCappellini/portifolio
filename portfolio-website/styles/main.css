@@ -1,0 +1,13 @@
+/* global */
+@import url("global/variables.css");
+@import url("global/reset.css");
+@import url("global/animations.css");
+@import url("global/base.css");
+
+/* components */
+@import url("components/header.css");
+@import url("components/footer.css");
+@import url("components/project-card.css");
+
+/* pages */
+@import url("pages/mobile/home.css");

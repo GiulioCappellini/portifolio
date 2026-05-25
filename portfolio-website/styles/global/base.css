@@ -1,0 +1,43 @@
+body {
+    min-height: 100dvh;
+    font-family: var(--fontSans);
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--text);
+    background: var(--bg);
+    background-image: radial-gradient(ellipse 80% 50% at 50% -20%, var(--accentSoft), transparent);
+}
+
+main {
+    width: 100%;
+    padding: 20px;
+}
+
+section > header h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+section > header p {
+    margin-top: 1rem;
+    max-width: 38ch;
+    font-size: 1.125rem;
+    color: var(--textMuted);
+}
+
+section > h2 {
+    margin-bottom: 40px;
+    font-size: 1.8em;
+    margin: 60px 0px 30px;
+}
+
+.btn-primary {
+    color: var(--bg);
+    background: var(--accent);
+}
+
+.btn-ghost {
+    color: var(--textMuted);
+    border: 1px solid var(--border);
+}
